@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int x,y,z,t,i=0;
+    printf("Enter the number");
+    scanf("%d",&t);
+    while(i<t){
+        printf("Enter the value of 5 rupee");
+        scanf("%d",&x);
+        printf("Enter the value of 10 rupee");
+        scanf("%d",&y);
+        printf("Enter the price of chocalate");
+        scanf("%d",&z);
+        int p;
+        p=(x*5+y*10)/z;
+        printf("%d",p);
+    }
+    return 0;
+}
