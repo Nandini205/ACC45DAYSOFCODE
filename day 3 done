@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int student;
+   printf("Enter the student");
+   scanf("%d",&student);
+   if(student>75){
+       printf("w");
+   }else if(student>60){
+       printf("x");
+       
+   }else if(student>55){
+   printf("y");
+   
+   }
+   else if(student>50){
+       printf("Z");
+   }else{
+       printf("A");
+   }
+    return 0;
+}
