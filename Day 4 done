@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main (){
+int x=7;
+int y=8;
+total amount=x+y;
+printf("%d",total amount);
+
+return 0;
+}￼Enter
