@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  
+  int x;
+  printf("Enter the geyser");
+  scanf("%d",&x);
+  int y;
+  printf("Enter the bucket");
+  scanf("%d",&y);
+  if(x>y){
+      printf("the maximum");
+  }
+  else{
+ printf("the minume");
+  }
+    return 0;
+}
