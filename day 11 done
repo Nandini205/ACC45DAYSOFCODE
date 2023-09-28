@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  int r;
+  printf("Enter the run");
+  scanf("%d",&r);
+   int o;
+  printf("Enter the over");
+  scanf("%d",&o);
+  if(r>o){
+      printf("maximum");
+  }else {
+      printf("minimum");
+  }
+  
+    return 0;
+}
