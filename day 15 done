@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main () {
+   int student;
+   printf("Enter the candies");
+   scanf("%d",&student);
+   if(student%2==0){
+       printf("Even number");
+   }
+   else{
+       printf("odd number");
+       
+   }
+   return 0;
+}
